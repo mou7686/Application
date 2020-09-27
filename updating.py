@@ -6,7 +6,7 @@ df9 = df8.shape #it indicates 6 rows and 7 columns
 df10["Continent"] = df8.shape[0]*["North America"] #adding columns
 df10["Continent"] = df8["Country"] + "," + "North America"
 df11 = df10_t = df10.T #it converts rows into column and column into rows i.e. transpose
-df11["My Address"] = ["my city","my country",10,7,"my shop","my state","my continent"]
+df11[7] = ["my address","my city","my state","my country","my shop",10,"my continent"]
 df11 = df11_t = df11.T 
 #print(df10)
 #print(df9)
